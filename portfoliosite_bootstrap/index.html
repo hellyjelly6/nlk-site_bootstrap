@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>bootstrap</title>
+</head>
+<body>
+	<style>
+	#rate{color: white;}
+	#ratet{color: #eeeeee;}
+	</style> 
+
+<!-- Навигационное меню сфверху-->
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark" style="position:fixed; width:100%;  z-index:21;">
+  <a class="navbar-brand" href="#">НЛК</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#ratet">Портфолио <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#ppp">Рейтинг <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Помощь <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+	
+<!-- ПОРТФОЛИО-->	
+<div class="jumbotron">
+	<div class="container-fluid">
+	    <div class="row">
+		  <div class="col-12">
+			<h1 id="ratet">  h  </h1>
+	        <h1 class="display-4">Портфолио</h1>
+	        <p class="lead">Это место, где собраны ваши научные публикации. Здесь вы можете добавлять свои научные работы, получать информацию об их уникальности и смотреть отзывы ваших научных руководителей.</p>
+	        <p class="lead">
+		      <a type="button" href="#" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#formuy">Добавить работу</a>
+	        </p>
+	      </div>
+		</div>
+	</div>
+</div>
+	
+<!-- Карточки Профиля и Статистики -->
+<div class="row">
+  <div class="col col-md-7 col-lg-5">
+    <div class="card">
+	  <h5 class="card-header">Ваш профиль</h5>
+	  <div class="card-body">
+		<h5 class="card-title">Сергей Павлович Фролов</h5>
+		<p class="card-text"><b>Научная степень: </b>Магистр.<br>
+		<b>Специализация: </b>Инвестиционные проблемы экономически развивающихся рынков.</p>
+		<a href="#" class="btn btn-primary">Редактировать</a>
+	  </div>
+	</div>
+  </div>
+  <div class="col-12 col-md-5 col-lg-4">
+    <div class="card">
+	  <h5 class="card-header">Статистика</h5>
+	  <div class="card-body">
+		<p class="card-text"><b>На платформе: </b>2 года.<br>
+		<b>Добавлено работ: </b>10.<br>
+		<b>Средняя уникальность: </b>75%.<br>
+		<b>Языки работ: </b>русский, английский.</p>
+	  </div>
+	</div>
+  </div>
+</div>
+	
+<!-- ТАБЛИЦА -->
+<div class="tmainHead" id="rate">  h  </div>
+<div class="table-responsive">
+	<table class="table table-bordered" id="ppp">
+	 <thead>
+		<tr>
+		  <th scope="col">Название работы</th>
+		  <th scope="col">Дата загрузки</th>
+		  <th scope="col">Научный руководитель</th>
+		  <th scope="col">Уникальность</th>
+		</tr>
+	  </thead>
+	  <tbody>
+		<tr>
+		  <td><a href="#">Привлечение инвестиций как фактор развития экономики</a></td>
+		  <td>21.05.2019</td>
+		  <td><a href="#">Асаншоева А.М.</a></td>
+		  <td><a href="#">89%</a></td>
+		</tr>
+		<tr>
+		  <td><a href="#">The role of accounting in sustainable development</a></td>
+		  <td>11.02.2019</td>
+		  <td><a href="#">Шаляпина В.С.</a></td>
+		  <td><a href="#">78%</a></td>
+		</tr>
+		<tr>
+		  <td><a href="#">Сценарный анализ как инструмент учета рисков инвестиционного проекта</a></td>
+		  <td>05.09.2018</td>
+		  <td><a href="#">Васильев М.Г.</a></td>
+		  <td><a href="#">67%</a></td>
+		</tr>
+		<tr>
+		  <td><a href="#">Глобальные и региональные инвестиционные тенденции</a></td>
+		  <td>09.07.2018</td>
+		  <td><a href="#">Асаншоева А.М.</a></td>
+		  <td><a href="#">73%</a></td>
+		</tr>
+		<tr>
+		  <td><a href="#">Systemic risks in financial markets</a></td>
+		  <td>10.05.2018</td>
+		  <td><a href="#">Леонидов В.Б.</a></td>
+		  <td><a href="#">77%</a></td>
+		</tr>
+		<tr>
+		  <td><a href="#">The influence of tax regulation liberalisation on the domestic debt market</a></td>
+		  <td>21.05.2019</td>
+		  <td><a href="#">Шаляпина В.С.</a></td>
+		  <td><a href="#">82%</a></td>
+		</tr>
+		<tr>
+		  <td><a href="#">Биткоин как новый вид инвестиций</a></td>
+		  <td>29.01.2018</td>
+		  <td><a href="#">Асаншоева А.М.</a></td>
+		  <td><a href="#">71%</a></td>
+		</tr>
+		<tr>
+		  <td><a href="#">Проблема воспроизводства жилищного фонда в России</a></td>
+		  <td>08.11.2017</td>
+		  <td><a href="#">Васильев М.Г.</a></td>
+		  <td><a href="#">65%</a></td>
+		</tr>
+		<tr>
+		  <td><a href="#">Влияние безработицы на экономику СНГ</a></td>
+		  <td>21.05.2019</td>
+		  <td><a href="#">Васильев М.Г.</a></td>
+		  <td><a href="#">68%</a></td>
+		</tr>
+		<tr>
+		  <td><a href="#">Мировой валютный рынок Форекс</a></td>
+		  <td>02.07.2017</td>
+		  <td><a href="#">Васильев М.Г.</a></td>
+		  <td><a href="#">67%</a></td>
+		</tr>
+	  </tbody>
+	</table>
+</div>	
+
+<!-- FOOTER -->
+<footer class="footer__main">
+  <div class="title__footer_div">
+    <p class="col-md-4 mb-0 text-muted">&copy; Научный личный кабинет. Все права защищены</p>
+  </div>
+</footer>
+
+
+<!-- ФОРМА -->
+<div class="modal fade" id="formuy" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+	  <div class="modal-header">
+        <h5 class="modal-title">Добавить работу</h5>
+      </div>
+      <div class="modal-body">
+        <form class="was-validated">
+		  <div class="form-group">
+			<label for="validationServer01">Название работы</label>
+			<input type="text" class="form-control is-invalid" id="validationServer03" placeholder="Например - Мировой валютный рынок Форекс" required>
+		  </div>
+		  <div class="form-row">
+		    <div class="col-sm-12 col-md-6">
+			  <div class="form-group">
+				<label for="validationServer01">Научный руководитель</label>
+				<select class="custom-select" required>
+				  <option value="">Укажите научного руководителя</option>
+				  <option value="1">Английский</option>
+				  <option value="2">Русский</option>
+				</select>
+			  </div>
+			</div>
+			<div class="col-sm-12 col-md-6">
+			  <div class="form-group">
+			    <label for="validationServer01">Язык публикации</label>
+				<select class="custom-select" required>
+				  <option value="">Укажите язык...</option>
+				  <option value="1">Асаншоева А.М.</option>
+				  <option value="2">Шаляпина В.С.</option>
+				  <option value="3">Васильев М.Г.</option>
+				  <option value="3">Леонидов В.Б.</option>
+				</select>
+			  </div>
+		    </div>
+		  </div>
+		  <div class="form-group">
+			<label for="validationServer01">Загрузите архив с работой</label>
+			  <div class="custom-file">
+				<input type="file" class="custom-file-input" id="validatedCustomFile" required>
+				<label class="custom-file-label" for="validatedCustomFile">Выберете файл...</label>
+			  </div>
+		  </div>
+		  <div class="form-group">
+			<div class="form-check">
+			  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+			  <label class="form-label">
+				Согласен на проверку уникальности работы
+			  </label>
+		  </div>
+		</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+        <button type="submit" class="btn btn-primary">Отправить</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
