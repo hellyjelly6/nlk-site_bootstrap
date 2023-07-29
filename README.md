@@ -10,3 +10,4 @@
 Макет ищи в Фигме https://www.figma.com/file/nDXdlmr1kCVnWEcnPWtfLg/Задание-на-Бутстрап?node-id=1%3A2.
 
 Для справки используй документацию Бутстрапа.
+nlk-site.netlify.app - cсылка на сайт
